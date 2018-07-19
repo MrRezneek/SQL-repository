@@ -120,3 +120,8 @@ FROM dbo.tArtist A
 	CROSS APPLY c1.album.nodes('song[position()<=2]')c2(song)
 where
 	A.name = 'Radiohead'
+	
+--new метод
+/*
+dfdfdf
+dfdfdf*/	
