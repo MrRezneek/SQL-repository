@@ -5,6 +5,7 @@
 select 
 	*
 from dbo.tArtist
+--
 */
 
 -- метод query
