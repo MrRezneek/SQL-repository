@@ -1,6 +1,7 @@
 
 --XML methods
 --всё стер к хренам
+--branch new_xml_method
 /*
 select 
 	*
@@ -121,3 +122,8 @@ FROM dbo.tArtist A
 	CROSS APPLY c1.album.nodes('song[position()<=2]')c2(song)
 where
 	A.name = 'Radiohead'
+	
+--new метод
+/*
+dfdfdf
+dfdfdf*/	
