@@ -5,7 +5,7 @@
 select 
 	*
 from dbo.tArtist
---
+--test push
 */
 
 -- метод query
